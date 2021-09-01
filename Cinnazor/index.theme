@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Cinnazor
+Comment=Cinamon version of ZorinX Desktop Theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Cinnazor
+MetacityTheme=Cinnazor-Dark
+IconTheme=Tela
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close

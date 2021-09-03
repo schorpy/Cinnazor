@@ -422,7 +422,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .panel-bottom {
-  border-radius: 12px 12px 0 0;
+  border-radius:0;
 }
 
 .panel-left {
@@ -443,6 +443,7 @@ StScrollBar StButton#vhandle:active {
 
 .panel-status-button:hover {
   color: rgba(255, 255, 255, 0.1);
+
 }
 
 .system-status-icon {
@@ -1557,7 +1558,7 @@ StScrollBar StButton#vhandle:active {
   transition-duration: 100;
   color: rgba(255, 255, 255, 0.6); }
   .grouped-window-list-item-box.top, .grouped-window-list-item-box.bottom {
-border-radius:5px;
+border-radius: 5px 5px 0 0;
     border-bottom-width: 2px; }
     .grouped-window-list-item-box.top StLabel, .grouped-window-list-item-box.bottom StLabel {
       padding-left: 2px; }
@@ -1845,6 +1846,7 @@ border-radius:5px;
   padding-right: 4px;
   color: #dedede;
   transition-duration: 300;
+border-radius: 5px 5px 0 0;
 }
 
 .panel-top .applet-box,
@@ -1854,7 +1856,8 @@ border-radius:5px;
 
 .applet-box:checked,
 .applet-box:hover {
-  color: #fff;
+    color: #fff;
+    background-color: #5294E2; /*lm logo menu*/
 }
 
 .applet-box.vertical {

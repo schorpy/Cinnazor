@@ -2389,8 +2389,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color text_view_bg #191919;
 
 button.titlebutton.minimize, button.titlebutton.maximize, button.titlebutton.close {
-  border-radius: 21px;
-  padding: 3px;
+  padding: 2px;
   height: 30px;
   width: 30px;
   box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.5);
